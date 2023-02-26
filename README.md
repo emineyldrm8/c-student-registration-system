@@ -16,9 +16,9 @@ int puan;
 Bize verilen bu bilgiler doğrultusunda çalışmalarımızı yürüttük.Projenin yapım süreci boyunca karşılaştığımız zorluklardan ve bizdeki eksikliklerden aşağıda bahsettik
 # arastırmalar ve yöntem
 Projenin eksiksiz bir biçimde çalışması için öncelikle proje ile bağlantılı bütün dosyaların klasörde bulunması gerekmektedir.Kullanıcı kodu derlediğinde önüne menü gelmektedir.Yapmak istediği işleme bu menü üzerinden karar verir.
-![image](https://user-images.githubusercontent.com/73225797/221406746-87e64f4c-d157-46f9-a480-086af0841e66.png)
+![image](https://user-images.githubusercontent.com/73225797/221406746-87e64f4c-d157-46f9-a480-086af0841e66.png)<br></br>
 Menü çalıştıktan sonra öğrencinin seçeneğine göre işlemler uygulanır.Öğrenci eğer 1’i seçerse karşısına şöyle bir ekran çıkıcaktır.
-![image](https://user-images.githubusercontent.com/73225797/221406773-9d8f5ff6-d289-4501-9c27-64de63195973.png)
+![image](https://user-images.githubusercontent.com/73225797/221406773-9d8f5ff6-d289-4501-9c27-64de63195973.png)<br></br>
 Kayıt ekleme yapacağı zaman gireceği öğrenciye ait  sırasıyla öğrenci numarası,ders kodu ve puan bilgilerini girer.Kullanıcının girdiği bilgiler  öncelikle binary dosyaya kaydedilir.
 
 Kullanıcı eğer 2 numaralı seçeneği seçerse
@@ -38,7 +38,7 @@ kullanıcının istediği kayıt silinecektir.
 
 Kullanıcı 8 numaralı seçeneği seçerse
 veri dosyasındaki kayıtlar sıralanmamış biçimde gösterilecektir.
-#Fonksiyon İsimleri ve Açıklamalrı
+# Fonksiyon İsimleri ve Açıklamalrı
 1.IndexDosyasiOlustur Fonksiyonu
 50 kayıtlık sırasız veri dosyası için indeks dosyası oluşturulur.
 
@@ -63,12 +63,12 @@ Kayıtlı sıralı halinin bulunacağı indeks dosyası listelenecektir.Selectio
 8.IndeksDosyasiniSil Fonksiyonu
 İndeks dosyasını diskten silecektir.
 
-#istatistikler
+# istatistikler
 Program kodumuz yaklaşık 450 satır tek dosyadan oluşmaktadır. Okuyucunun anlamasını kolaylaştırmak için bazı yorum satırlarına yer verilmiştir.
-#Programın Derlenmesi
+# Programın Derlenmesi
 Projeyi CodeBlocks ya da herhangi bir derleyici  kullanarak derleyebilirsiniz.Derledikten sonra herhangi bir girdi girdiğinizdeki  text ve binary 
 dosyasındaki değişimlere veriDosyasi.bin uzantılı binary ve  indexDosyasi.txt uzantılı dosyalardan istediğiniz zaman erişim sağlayabileceksiniz.
-#Geliştirme Ortamı
+# Geliştirme Ortamı
 Projemizi Windows sistemde,Codeblocks üzerinde geliştirip GCC kullanarak derledik.
-#Akış Diyagramı
+# Akış Diyagramı
 ![image](https://user-images.githubusercontent.com/73225797/221406937-cb50a140-9e8b-4370-912a-97a1dd78eb02.png)
