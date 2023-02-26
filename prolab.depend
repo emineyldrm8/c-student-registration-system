@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1635000976 source:c:\users\ferhat\desktop\prolab_1\prolab\main.c
+	<stdio.h>
+	<locale.h>
+	<malloc.h>
+
