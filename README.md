@@ -3,9 +3,9 @@ student registration system
 # projenin amacı
 C dilinde dosyalama fonksiyonlarının pratiğinin yapılmasıdır. Bu amaçla ikili dosyaların (binary file) ve metin dosyalarının (text file) kullanıldığı bir uygulama geliştirilecektir.
 # projenin tanımı
-Projede bizden istenen, C dilini kullanarak yoğun indeks yapısı kullanılarak dosyalama fonksiyonları pratiğinin yapılmasıdır.Bu indeks yapısında ikili dosya olarak gerçekleştirilen veri dosyasındaki her kayıt için indeks dosyasında bir girdi saklanmaktadır.İndeks dosyasında kayıtlar adres anahtar şeklinde saklanmaktadır.Adres değeri anahtar ile ilgili bilginin veri dosyasında hangi ofsette saklandığını göstermektir.Bizden istenilen öncelikle 50 kişilik öğrencinin öğrenci numarasını,puanını,ders kodunu ve adresininin
+Projede istenen, C dilini kullanarak yoğun indeks yapısı kullanılarak dosyalama fonksiyonları pratiğinin yapılmasıdır.Bu indeks yapısında ikili dosya olarak gerçekleştirilen veri dosyasındaki her kayıt için indeks dosyasında bir girdi saklanmaktadır.İndeks dosyasında kayıtlar adres anahtar şeklinde saklanmaktadır.Adres değeri anahtar ile ilgili bilginin veri dosyasında hangi ofsette saklandığını göstermektir.Bizden istenilen öncelikle 50 kişilik öğrencinin öğrenci numarasını,puanını,ders kodunu ve adresininin
 txt ve binary dosyalara kaydedilmesi ve daha sonra girilen veriler doğrultusunda verilerin hangi offsetde saklandığının text dosyasına kaydedilmesidir.Text dosyasında offsetler haricinde bir diğer önemli nokta ise girilen verilerin öğrenci numaraların sıaralı bir biçimde text dosyasında gözükmesidir.Bu işlemler için
-bizden belirli fonksiyonlar kullanmamız istenmektedir.Kullanılması istenen  fonksiyonlar şunlardır:
+belirli fonksiyonlar kullanmamız istenmektedir.Kullanılması istenen  fonksiyonlar şunlardır:
 indexDosyasiOlustur,kayitEkle,kayitBul,kayitSil,kayitGuncelle,veriDosyasiniGoster,indeksDosyasiniGoster,indeksDosyasiniSil.
 Kullanılması istenen bir yapı daha bulunmaktadır.
   struct kayit
@@ -13,7 +13,7 @@ Kullanılması istenen bir yapı daha bulunmaktadır.
 int dersKodu;
 int puan;
 }
-Bize verilen bu bilgiler doğrultusunda çalışmalarımızı yürüttük.Projenin yapım süreci boyunca karşılaştığımız zorluklardan ve bizdeki eksikliklerden aşağıda bahsettik
+Verilen bu bilgiler doğrultusunda çalışmalarımı yürüttüm.
 # arastırmalar ve yöntem
 Projenin eksiksiz bir biçimde çalışması için öncelikle proje ile bağlantılı bütün dosyaların klasörde bulunması gerekmektedir.Kullanıcı kodu derlediğinde önüne menü gelmektedir.Yapmak istediği işleme bu menü üzerinden karar verir.
 ![image](https://user-images.githubusercontent.com/73225797/221406746-87e64f4c-d157-46f9-a480-086af0841e66.png)<br></br>
